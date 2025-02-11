@@ -5,11 +5,11 @@
 GGH is a lightweight, fast wrapper around your SSH commands. It helps you to recall your SSH sessions.
 This is one of the most useful tools for developers who work with multiple servers.
 
-Thanks to GGH Team for this amazing tool.
+Thanks to GGH Team.
 
 ### What is Worm?
 
-Worm inherits all the features of GGH and expands with several new capabilities, such as:
+Worm inherits all the features of GGH and expands with several new capabilities (I need), such as:
 
 - Setting up a workspace for each project or company...
 - Each workspace contains multiple files, with each file managing a separate list of servers that need SSH access. A
