@@ -2,11 +2,11 @@ package interactive
 
 import (
 	"fmt"
-	"github.com/JcKendo/worm/internal/config"
-	"github.com/JcKendo/worm/internal/history"
-	"github.com/JcKendo/worm/internal/ssh"
-	"github.com/JcKendo/worm/internal/tsh"
-	"github.com/JcKendo/worm/internal/workspace"
+	"github.com/JcKendo/worm-ssh/internal/config"
+	"github.com/JcKendo/worm-ssh/internal/history"
+	"github.com/JcKendo/worm-ssh/internal/ssh"
+	"github.com/JcKendo/worm-ssh/internal/tsh"
+	"github.com/JcKendo/worm-ssh/internal/workspace"
 	"github.com/charmbracelet/bubbles/table"
 	"log"
 	"os"

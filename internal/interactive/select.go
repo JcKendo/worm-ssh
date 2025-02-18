@@ -2,10 +2,10 @@ package interactive
 
 import (
 	"fmt"
-	"github.com/JcKendo/worm/internal/config"
-	"github.com/JcKendo/worm/internal/history"
-	"github.com/JcKendo/worm/internal/theme"
-	"github.com/JcKendo/worm/internal/workspace"
+	"github.com/JcKendo/worm-ssh/internal/config"
+	"github.com/JcKendo/worm-ssh/internal/history"
+	"github.com/JcKendo/worm-ssh/internal/theme"
+	"github.com/JcKendo/worm-ssh/internal/workspace"
 	"math"
 	"os"
 	"slices"

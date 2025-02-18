@@ -2,7 +2,7 @@ package workspace
 
 import (
 	"fmt"
-	"github.com/JcKendo/worm/internal/theme"
+	"github.com/JcKendo/worm-ssh/internal/theme"
 	"github.com/charmbracelet/bubbles/table"
 	"log"
 	"os"

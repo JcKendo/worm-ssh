@@ -2,7 +2,7 @@ package ssh
 
 import (
 	"fmt"
-	"github.com/JcKendo/worm/internal/config"
+	"github.com/JcKendo/worm-ssh/internal/config"
 	"os"
 	"os/exec"
 	"slices"

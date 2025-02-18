@@ -3,7 +3,7 @@ package history
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/JcKendo/worm/internal/config"
+	"github.com/JcKendo/worm-ssh/internal/config"
 	"github.com/charmbracelet/bubbles/table"
 	"os"
 	"slices"

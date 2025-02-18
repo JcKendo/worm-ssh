@@ -1,7 +1,7 @@
 package tsh
 
 import (
-	"github.com/JcKendo/worm/internal/config"
+	"github.com/JcKendo/worm-ssh/internal/config"
 	"testing"
 )
 

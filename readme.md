@@ -18,8 +18,9 @@ Worm inherits all the features of GGH and expands with several new features (I n
 
 ### Installation && Configuration
 
-- Clone the repository
-- Run the command `go install .`
+```shell
+go install github.com/JcKendo/worm-ssh@latest
+```
 - Setup Conflict workspace
 
 ```shell
