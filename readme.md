@@ -5,22 +5,21 @@
 GGH is a lightweight, fast wrapper around your SSH commands. It helps you to recall your SSH sessions.
 This is one of the most useful tools for developers who work with multiple servers.
 
-Thanks to GGH Team for this amazing tool.
+Thanks to GGH Team.
 
 ### What is Worm?
 
-Worm inherits all the features of GGH and expands with several new capabilities, such as:
+Worm inherits all the features of GGH and expands with several new features (I need), such as:
 
 - Setting up a workspace for each project or company...
-- Each workspace contains multiple files, with each file managing a separate list of servers that need SSH access. A
-  file can represent a DataCenter or Platform…
+- Each workspace contains multiple files, each managing a separate list of servers needing SSH access. Each file can represent a data center or Platform…
 - Supporting server access via SSH and TSH
 - Saving history for each workspace
 
 ### Installation && Configuration
 
 - Clone the repository
-- Run command `go install .`
+- Run the command `go install .`
 - Setup Conflict workspace
 
 ```shell
