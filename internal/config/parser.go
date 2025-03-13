@@ -103,7 +103,10 @@ func parseWithSearch(search string, fileName, contentFile string) ([]SSHConfig, 
 			}
 		}
 
-		if sshConfig.Host == "" || (!strings.Contains(sshConfig.Name, search) && !strings.Contains(sshConfig.Group, search)) {
+		if sshConfig.Host == "" || (!containsFold(sshConfig.Name, search) &&
+			!containsFold(sshConfig.Group, search) &&
+			!containsFold(sshConfig.Host, search) &&
+			!containsFold(sshConfig.Key, search)) {
 			continue
 		}
 
@@ -114,6 +117,9 @@ func parseWithSearch(search string, fileName, contentFile string) ([]SSHConfig, 
 	return configs, nil
 }
 
+func containsFold(s, substr string) bool {
+	return strings.Contains(strings.ToLower(strings.Trim(s, " ")), strings.ToLower(strings.Trim(substr, " ")))
+}
 func ParseInclude(search string, path string) ([]SSHConfig, error) {
 	var results = make([]SSHConfig, 0)
 

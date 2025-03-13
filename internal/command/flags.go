@@ -32,6 +32,8 @@ func Which() (Action, string) {
 			return ListWorkspace, ""
 		case "--active":
 			return ActiveWorkspace, ""
+		case "--":
+			return ActiveWorkspace, ""
 		case "-":
 			return InteractiveConfig, ""
 		}
