@@ -20,7 +20,7 @@ Worm inherits all the features of GGH and expands with several new features (I n
 
 - Clone the repository
 - Run the command `go install .`
-- Setup Conflict workspace
+- Setup workspace
 
 ```shell
 cd ~/.worm
